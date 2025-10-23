@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<title>Courtney Barnett</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- css - Dateien ======================= -->
+	<link href="css/lightbox.css" rel="stylesheet">	
+    <link href="css/slippry.css" rel="stylesheet">	
+    <link href="css/default.css" rel="stylesheet">
+	
+</head>
+<body>
+	<header id="topheader">
+		<img src="Court_Barn_img/612fd529f47682ab295a7f3e_Logo.png" alt="Logo">
+		<nav id="topnav">
+			<ul>
+				<li><a href="#art1">link1</a></li>
+				<li><a href="#art2">link2</a></li>
+				<li><a href="#art3">link3</a></li>
+				<li><a href="#art4">link4</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article id="art1">
+			<div class="content">
+				<div class="wrapper700 pad52">
+					<h2>Wie kam die Musik in die LightBox2?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae recusandae excepturi commodi animi suscipit, quis dolorem, harum, atque natus velit, quas unde? Nam numquam odit veniam ut repellat ex tempora inventore ipsum ipsa repellendus velit possimus odio quas iusto assumenda, libero minima voluptatem animi consectetur laudantium at iure quis!</p>
+				</div>
+				<figure class="superspalter gap">
+					<a href="Court_Barn_img/cb1s.jpg" data-lightbox="set1" data-title="Court Barnett"><img src="Court_Barn_img/cb1s.jpg" alt="Court Barnett"></a>
+					<a href="Court_Barn_img/cb2s.jpg" data-lightbox="set1" data-title="Court Barnett"><img src="Court_Barn_img/cb2s.jpg" alt="Court Barnett"></a>
+					<a href="Court_Barn_img/cb3s.jpg" data-lightbox="set1" data-title="Court Barnett"><img src="Court_Barn_img/cb3s.jpg" alt="Court Barnett"></a>
+					<a href="Court_Barn_img/cb4-s.jpg" data-lightbox="set1" data-title="Court Barnett"><img src="Court_Barn_img/cb4-s.jpg" alt="Court Barnett"></a>
+				</figure>
+				<div class="wrapper700 pad52">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae recusandae excepturi commodi animi suscipit, quis dolorem, harum, atque natus velit, quas unde? Nam numquam odit veniam ut repellat ex tempora inventore ipsum ipsa repellendus velit possimus odio quas iusto assumenda, libero minima voluptatem animi consectetur laudantium at iure quis!</p>
+				</div>
+			</div>
+		</article>
+		<article id="art2">
+			<div class="content">
+				<div class="wrapper700 pad52">
+					<h2>Live im Konzert - ein Slider-Erlebnis?</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae recusandae excepturi commodi animi suscipit, quis dolorem, harum, atque natus velit, quas unde? Nam numquam odit veniam ut repellat ex tempora inventore ipsum ipsa repellendus velit possimus odio quas iusto assumenda, libero minima voluptatem animi consectetur laudantium at iure quis!</p>
+				</div>
+				<figure class="wrapper1000">
+					<ul id="slider1">
+						<li>
+							<img src="Court_Barn_img/cb1s.jpg" alt="Court Barnett">
+						</li>
+						<li>
+							<img src="Court_Barn_img/cb2s.jpg" alt="Court Barnett">
+						</li>
+						<li>
+							<img src="Court_Barn_img/cb3s.jpg" alt="Court Barnett">
+						</li>
+						<li>
+							<img src="Court_Barn_img/cb4-s.jpg" alt="Court Barnett">
+						</li>
+					</ul>
+				</figure>
+				<div class="wrapper700 pad52">
+					<h2>Erlebnisse Backstage ...</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae recusandae excepturi commodi animi suscipit, quis dolorem, harum, atque natus velit, quas unde? Nam numquam odit veniam ut repellat ex tempora inventore ipsum ipsa repellendus velit possimus odio quas iusto assumenda, libero minima voluptatem animi consectetur laudantium at iure quis!</p>
+				</div>
+			</div>
+		</article>
+		<article id="art3"></article>
+		<article id="art4"></article>
+	</main>
+    <footer id="footer" class="superspalter gap">
+        <div>
+            <p>Konto xxx</p>
+            <p>Bank yyyyyyyyy</p>
+            <p>Dies und Das</p>
+        </div>
+        <div>
+            <p>Konto xxx</p>
+            <p>Bank yyyyyyyyy</p>
+            <p>Dies und Das</p>
+        </div>
+        <div>
+            <p>Konto xxx</p>
+            <p>Bank yyyyyyyyy</p>
+            <p>Dies und Das</p>
+        </div>
+    </footer>
+	<!-- js - Dateien ======================= -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/slippry.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+        $("#slider1").slippry({
+            transition: 'horizontal',
+            speed: 2000,
+            pause: 4000
+        });
+		lightbox.option({
+			'wrapAround': true,
+			'albumLabel': "Foto %1 von %2"
+		});
+        
+        // sticky ----------------------------------
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 100) {
+                $('#topheader').addClass('hans');
+            }
+            else {
+                $('#topheader').removeClass('hans');
+            }
+        });
+    </script>
+</body>
+</html>
