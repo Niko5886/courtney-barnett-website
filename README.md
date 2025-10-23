@@ -25,7 +25,7 @@ A responsive website showcasing Courtney Barnett with image galleries and intera
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/courtney-barnett-website.git
+   git clone https://github.com/Niko5886/courtney-barnett-website.git
    ```
 
 2. Open `index.html` in your web browser
