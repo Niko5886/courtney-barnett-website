@@ -111,6 +111,12 @@ main {
 	#art2 {
 		background: url("../Court_Barn_img/courtney_playing4.webp") center top/cover fixed;
 	}
+	#art3 {
+		background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95));
+	}
+	#art4 {
+		background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95));
+	}
 	#footer {
 		padding: 1% 2%;
 		border-top: 1px solid #8C96B2;
@@ -145,6 +151,24 @@ main {
 
 	/* sonstige -----------*/
 	.content { background: #fff; }
+
+	/* footer links ---------*/
+	.footer-heading {
+		color: #183EB2;
+		font-size: 1.2rem;
+		margin-bottom: 0.5rem;
+	}
+	.footer-link {
+		color: #183EB2;
+		text-decoration: none;
+	}
+	.footer-link:hover {
+		text-decoration: underline;
+	}
+	.footer-copyright {
+		font-size: 0.9rem;
+		margin-top: 1rem;
+	}
 
 /* anpassung slippry-slider -------*/
 .sy-pager li.sy-active a {
