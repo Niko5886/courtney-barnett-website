@@ -19,7 +19,6 @@ A responsive website showcasing Courtney Barnett with image galleries and intera
 
 ## Live Demo
 
-🌐 **Live Site:** [https://courtney-barnett-website.netlify.app](https://courtney-barnett-website.netlify.app)
 
 🌐 **Live Site:**  https://niko5886.github.io/courtney-barnett-website/
 
